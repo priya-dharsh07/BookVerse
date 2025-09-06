@@ -1,0 +1,17 @@
+npx create-react-app bookverse-frontend
+cd bookverse-frontend
+npm install react-router-dom
+npm install react-scripts@5.0.1
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install framer-motion
+npm install lucide-react
+npm install react@18 react-dom@18 framer-motion@10
+
+cd bookverse-backend
+npm init -y
+npm install express mongoose cors dotenv
+npm install --save-dev nodemon
+npm install bcryptjs jsonwebtoken
+npm install axios
+npm install multer
